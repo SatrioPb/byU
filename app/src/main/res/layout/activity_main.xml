@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/fb"
+            android:textColor="@color/putih"
+            android:background="@drawable/background"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_width="298dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="500dp"
+            android:text="Login dengan menggunakan Facebook"/>
+        <Button
+            android:id="@+id/gogle"
+            android:background="@drawable/background2"
+            android:layout_marginTop="10dp"
+            android:layout_width="298dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:text="Login dengan Gmail"
+            android:textSize="10dp"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tidak punya akun?Daftar"
+        android:layout_marginTop="20sp"/>
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="352dp"
+        android:layout_height="318dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-550dp"
+        android:src="@drawable/bayi" />
+
+    <TextView
+        android:id="@+id/masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-400dp"
+        android:text="Masuk"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Login untuk lihat akun kamu yuk"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+</LinearLayout>
